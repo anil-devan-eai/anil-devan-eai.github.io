@@ -1,0 +1,8 @@
+@import '@eai/kosmos-lib-theme-utils/src/styles/index.scss';
+@import '@eai/kosmos-lib-style-utils/src/styles/mixins/layout.scss';
+@import '@eai/kosmos-lib-theme-utils/src/styles/mixins/effects.scss';
+
+body,html {
+    height: 100%;
+    overflow: hidden;
+}
