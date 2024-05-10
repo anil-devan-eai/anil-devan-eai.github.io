@@ -3,6 +3,7 @@
   "dependencies": {
     "@eai/kosmos-lib-theme-utils": "0.4.1-alpha.83ad529.259+83ad529",
     "@eai/kosmos-lib-style-utils": "0.3.2-alpha.83ad529.259+83ad529",
+    "@eai/kosmos-lib-color-utils": "0.3.2-alpha.83ad529.259+83ad529",
     "sass": "1.77.0",
     "vite": "5.2.11"
   },
