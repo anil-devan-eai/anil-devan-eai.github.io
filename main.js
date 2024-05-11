@@ -19,4 +19,8 @@ function injectThemeVariables(themeCss) {
 }
 
 injectThemeVariables(darkTheme)
-injectThemeVariables(lightTheme)
+injectThemeVariables(lightTheme);
+
+window.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelector('.buttons button').classList.push('kosmos-button')
+});
