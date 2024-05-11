@@ -21,8 +21,10 @@ function injectThemeVariables(themeCss) {
 injectThemeVariables(darkTheme)
 injectThemeVariables(lightTheme);
 
-window.addEventListener("DOMContentLoaded", (event) => {
+function fixUI() {
     document.querySelector('.buttons button').classList.push('kosmos-button')
-});
+}
 
-console.log(document.querySelector('.buttons button'))
+window.addEventListener("DOMContentLoaded", fixUI);
+
+fixUI();
