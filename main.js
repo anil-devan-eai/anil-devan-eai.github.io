@@ -22,7 +22,9 @@ injectThemeVariables(darkTheme)
 injectThemeVariables(lightTheme);
 
 function fixUI() {
-    document.querySelector('.buttons button').classList.add('kosmos-button kosmos-button--primary')
+    const loginButton = document.querySelector('.buttons button');
+    loginButton.classList.add('kosmos-button')
+    loginButton.classList.add('kosmos-button--primary')
 }
 
 window.addEventListener("DOMContentLoaded", fixUI);
