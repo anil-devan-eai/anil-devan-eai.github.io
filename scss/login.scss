@@ -1,8 +1,13 @@
 @import '@eai/kosmos-lib-theme-utils/src/styles/index.scss';
 @import '@eai/kosmos-lib-style-utils/src/styles/mixins/layout.scss';
 @import '@eai/kosmos-lib-theme-utils/src/styles/mixins/effects.scss';
+@import '@eai/kosmos-ui-buttons/src/styles/button.scss';
 
 body,html {
     height: 100%;
     overflow: hidden;
+}
+
+.buttons button {
+    @include kosmos-button-primary-active;
 }
