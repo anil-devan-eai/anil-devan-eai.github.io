@@ -21,12 +21,12 @@ function injectThemeVariables(themeCss) {
 injectThemeVariables(darkTheme)
 injectThemeVariables(lightTheme);
 
-// function fixUI() {
-//     const loginButton = document.querySelector('.buttons button');
-//     loginButton.classList.add('kosmos-button')
-//     loginButton.classList.add('kosmos-button--primary')
-// }
-//
-// window.addEventListener("DOMContentLoaded", fixUI);
-//
-// fixUI();
+function fixUI() {
+    const loginButton = document.querySelector('.buttons button');
+    loginButton.classList.add('kosmos-button')
+    loginButton.classList.add('kosmos-button--primary')
+}
+
+window.addEventListener("DOMContentLoaded", fixUI);
+
+fixUI();
