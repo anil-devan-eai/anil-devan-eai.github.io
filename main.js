@@ -22,7 +22,7 @@ injectThemeVariables(darkTheme)
 injectThemeVariables(lightTheme);
 
 function fixUI() {
-    document.querySelector('.buttons button').classList.add('kosmos-button')
+    document.querySelector('.buttons button').classList.add('kosmos-button kosmos-button--primary')
 }
 
 window.addEventListener("DOMContentLoaded", fixUI);
