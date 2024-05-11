@@ -24,3 +24,5 @@ injectThemeVariables(lightTheme);
 window.addEventListener("DOMContentLoaded", (event) => {
     document.querySelector('.buttons button').classList.push('kosmos-button')
 });
+
+console.log(document.querySelector('.buttons button'))
